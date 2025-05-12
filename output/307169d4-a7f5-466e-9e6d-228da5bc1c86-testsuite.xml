@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1747074912836' stop='1747074997895'>
+    <name>Most Read Section:</name>
+    <title>Most Read Section:</title>
+    <test-cases>
+        <test-case start='1747074912837' status='passed' stop='1747074997837'>
+            <name>Verify bypass block menu for "Most Read" is working</name>
+            <title>Verify bypass block menu for "Most Read" is working</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747074915518' status='passed' stop='1747074916435'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747074915519' status='passed' stop='1747074916435'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747074916435' status='passed' stop='1747074997833'>
+                    <name>When I click the "Bypass Block" menu item for "Most Read" ""</name>
+                    <title>When I click the "Bypass Block" menu item for "Most Read" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747074916435' status='passed' stop='1747074997833'>
+                            <name>I force click "[href="#most-read-container"]"</name>
+                            <title>I force click "[href="#most-read-container"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747074997833' status='passed' stop='1747074997837'>
+                    <name>Then I should be taken directly to the "Most Read" section ""</name>
+                    <title>Then I should be taken directly to the "Most Read" section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747074997834' status='passed' stop='1747074997837'>
+                            <name>I execute script () => {
+                                  const targetElement = document.querySelector(".trending-articles"); 
+                                  if (!targetElement) {
+                                    return { error: 'Element not found!' }; // Gracefully handle missing elements
+                                  }
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</name>
+                            <title>I execute script () => {
+                                  const targetElement = document.querySelector(".trending-articles"); 
+                                  if (!targetElement) {
+                                    return { error: 'Element not found!' }; // Gracefully handle missing elements
+                                  }
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747074997838' status='passed' stop='1747074997838'>
+                    <name>I say "Element Top: 1730.5234375, Current Scroll: 1670.5"</name>
+                    <title>I say "Element Top: 1730.5234375, Current Scroll: 1670.5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1747074997838' status='passed' stop='1747074997838'>
+                    <name>Element Top: 1730.5234375, Current Scroll: 1670.5</name>
+                    <title>Element Top: 1730.5234375, Current Scroll: 1670.5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

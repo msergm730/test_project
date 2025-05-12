@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1747072869473' stop='1747072956682'>
+    <name>Most Read Section:</name>
+    <title>Most Read Section:</title>
+    <test-cases>
+        <test-case start='1747072869474' status='failed' stop='1747072955574'>
+            <name>Verify bypass block menu for "Most Read" is working</name>
+            <title>Verify bypass block menu for "Most Read" is working</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747072871748' status='passed' stop='1747072872770'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747072871748' status='passed' stop='1747072872769'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747072872770' status='passed' stop='1747072954191'>
+                    <name>When I click the "Bypass Block" menu item for "Most Read" ""</name>
+                    <title>When I click the "Bypass Block" menu item for "Most Read" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747072872770' status='passed' stop='1747072954081'>
+                            <name>I click ".header-menu.site-header", ,</name>
+                            <title>I click ".header-menu.site-header", ,</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1747072954081' status='passed' stop='1747072954162'>
+                            <name>I press key "Tab"</name>
+                            <title>I press key "Tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1747072954162' status='passed' stop='1747072954178'>
+                            <name>I press key "Tab"</name>
+                            <title>I press key "Tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1747072954178' status='passed' stop='1747072954185'>
+                            <name>I press key "Tab"</name>
+                            <title>I press key "Tab"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1747072954185' status='passed' stop='1747072954191'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747072954191' status='failed' stop='1747072955574'>
+                    <name>Then I should be taken directly to the "Most Read" section ""</name>
+                    <title>Then I should be taken directly to the "Most Read" section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747072954191' status='failed' stop='1747072955574'>
+                            <name>I execute script () => {
+                                  const targetElement = document.querySelector(HomePageSelectors.MostReadContainer); 
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</name>
+                            <title>I execute script () => {
+                                  const targetElement = document.querySelector(HomePageSelectors.MostReadContainer); 
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='1f1a8d9a-cf05-49e7-9879-07e132439357-attachment.png' type='image/png' size='1105761'/>
+            </attachments>
+            <failure>
+                <message>javascript error: HomePageSelectors is not defined
+                  (Session info: chrome=136.0.7103.93)</message>
+                <stack-trace>javascript error: javascript error: HomePageSelectors is not defined
+                  (Session info: chrome=136.0.7103.93)
+                    at getErrorFromResponseBody (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/webdriver/build/utils.js:195:12)
+                    at NodeJSRequest._request (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/webdriver/build/request/index.js:193:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)
+                    at async Browser.wrapCommandFn (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
