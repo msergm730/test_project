@@ -1,5 +1,4 @@
-For Mac M3 use node v18
-# 🧪 Project Name ???????
+# 🧪 Test Project
 
 A fully automated testing framework using **CodeceptJS** with **BDD** and **Allure Reporting** integration. This project helps streamline testing workflows by offering clean reporting and easy-to-use test execution commands.
 
@@ -16,7 +15,7 @@ This project enables efficient testing automation with:
 
 ### Prerequisites
 Ensure you have the following installed:
-- **Node.js** (v18 or higher)
+- **Node.js** (v16 or higher), for Mac M3 use node v18
 - **Java** 
 - **npm** (comes with Node.js)
 - **Allure Commandline** (for generating Allure reports)
@@ -29,10 +28,10 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo.git ????
+   git clone git@github.com:msergm730/test_project.git
 2. **Navigate to project directory**:
    ```bash
-   cd < > ????
+   cd test_project 
 3. **Install Dependences**:
     npm install
 
