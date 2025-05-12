@@ -1,0 +1,245 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1747075525197' stop='1747075871692'>
+    <name>Most Read Section:</name>
+    <title>Most Read Section:</title>
+    <test-cases>
+        <test-case start='1747075525197' status='passed' stop='1747075610329'>
+            <name>Verify "Most Read" section is visible on Desktop</name>
+            <title>Verify "Most Read" section is visible on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747075527498' status='passed' stop='1747075528377'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075527498' status='passed' stop='1747075528377'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075528377' status='passed' stop='1747075610310'>
+                    <name>When I am using a Desktop view ""</name>
+                    <title>When I am using a Desktop view ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075528378' status='passed' stop='1747075610309'>
+                            <name>I resize window 1440, 900</name>
+                            <title>I resize window 1440, 900</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075610310' status='passed' stop='1747075610329'>
+                    <name>Then the "Most Read" section should be visible ""</name>
+                    <title>Then the "Most Read" section should be visible ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075610310' status='passed' stop='1747075610329'>
+                            <name>I see element ".trending-articles"</name>
+                            <title>I see element ".trending-articles"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1747075610388' status='passed' stop='1747075693524'>
+            <name>Verify "Most Read" section contains 10 posts on Desktop</name>
+            <title>Verify "Most Read" section contains 10 posts on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747075612620' status='passed' stop='1747075613513'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075612620' status='passed' stop='1747075613513'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075613513' status='passed' stop='1747075693479'>
+                    <name>When I am using a Desktop view ""</name>
+                    <title>When I am using a Desktop view ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075613513' status='passed' stop='1747075693479'>
+                            <name>I resize window 1440, 900</name>
+                            <title>I resize window 1440, 900</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075693479' status='passed' stop='1747075693524'>
+                    <name>Then the "Most Read" section should contain 10 posts ""</name>
+                    <title>Then the "Most Read" section should contain 10 posts ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075693479' status='passed' stop='1747075693524'>
+                            <name>I grab number of visible elements ".trending-articles__list > li"</name>
+                            <title>I grab number of visible elements ".trending-articles__list > li"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1747075693581' status='passed' stop='1747075788074'>
+            <name>Verify "Most Read" section is not visible on Mobile</name>
+            <title>Verify "Most Read" section is not visible on Mobile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747075695471' status='passed' stop='1747075696420'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075695471' status='passed' stop='1747075696420'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075696420' status='passed' stop='1747075788053'>
+                    <name>When I am using a Mobile view ""</name>
+                    <title>When I am using a Mobile view ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075696420' status='passed' stop='1747075788053'>
+                            <name>I resize window 375, 667</name>
+                            <title>I resize window 375, 667</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075788053' status='passed' stop='1747075788074'>
+                    <name>Then the "Most Read" section should not be visible ""</name>
+                    <title>Then the "Most Read" section should not be visible ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075788053' status='passed' stop='1747075788074'>
+                            <name>I dont see element ".trending-articles"</name>
+                            <title>I dont see element ".trending-articles"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1747075788181' status='passed' stop='1747075871635'>
+            <name>Verify bypass block menu for "Most Read" is working</name>
+            <title>Verify bypass block menu for "Most Read" is working</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747075790083' status='passed' stop='1747075790800'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075790083' status='passed' stop='1747075790800'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075790800' status='passed' stop='1747075871632'>
+                    <name>When I click the "Bypass Block" menu item for "Most Read" ""</name>
+                    <title>When I click the "Bypass Block" menu item for "Most Read" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075790800' status='passed' stop='1747075871632'>
+                            <name>I force click "[href="#most-read-container"]"</name>
+                            <title>I force click "[href="#most-read-container"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075871632' status='passed' stop='1747075871635'>
+                    <name>Then I should be taken directly to the "Most Read" section ""</name>
+                    <title>Then I should be taken directly to the "Most Read" section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747075871632' status='passed' stop='1747075871634'>
+                            <name>I execute script () => {
+                                  const targetElement = document.querySelector(".trending-articles"); 
+                                  if (!targetElement) {
+                                    return { error: 'Element not found!' }; // Gracefully handle missing elements
+                                  }
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</name>
+                            <title>I execute script () => {
+                                  const targetElement = document.querySelector(".trending-articles"); 
+                                  if (!targetElement) {
+                                    return { error: 'Element not found!' }; // Gracefully handle missing elements
+                                  }
+                                  const elementTop = targetElement.getBoundingClientRect().top; // Distance from top of viewport
+                                  const pageYOffset = window.pageYOffset; // Current vertical scroll position
+                                  return {
+                                    elementTop: elementTop + pageYOffset, // Calculate element's absolute position
+                                    currentScroll: pageYOffset, // Current scroll position
+                                  };
+                                }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747075871635' status='passed' stop='1747075871635'>
+                    <name>I say "Element Top: 1678.53125, Current Scroll: 1618.5"</name>
+                    <title>I say "Element Top: 1678.53125, Current Scroll: 1618.5"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1747075871635' status='passed' stop='1747075871635'>
+                    <name>Element Top: 1678.53125, Current Scroll: 1618.5</name>
+                    <title>Element Top: 1678.53125, Current Scroll: 1618.5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

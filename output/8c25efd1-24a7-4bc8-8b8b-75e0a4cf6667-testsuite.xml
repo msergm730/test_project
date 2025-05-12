@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1747078670013' stop='1747078842495'>
+    <name>Livestream Player:</name>
+    <title>Livestream Player:</title>
+    <test-cases>
+        <test-case start='1747078670014' status='passed' stop='1747078754730'>
+            <name>Validate Player is visible in Livestream Player</name>
+            <title>Validate Player is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747078672628' status='passed' stop='1747078673296'>
+                    <name>Given I am on the Livestream page ""</name>
+                    <title>Given I am on the Livestream page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747078672628' status='passed' stop='1747078673296'>
+                            <name>I am on page "/live"</name>
+                            <title>I am on page "/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747078673296' status='passed' stop='1747078754730'>
+                    <name>Then I should see the Player in the Livestream section ""</name>
+                    <title>Then I should see the Player in the Livestream section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747078673296' status='passed' stop='1747078754730'>
+                            <name>I see element "[class$="-player"]"</name>
+                            <title>I see element "[class$="-player"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1747078754789' status='passed' stop='1747078842443'>
+            <name>Validate Switch Player button is visible in Livestream Player</name>
+            <title>Validate Switch Player button is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747078756559' status='passed' stop='1747078757454'>
+                    <name>Given I am on the Livestream page ""</name>
+                    <title>Given I am on the Livestream page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747078756559' status='passed' stop='1747078757454'>
+                            <name>I am on page "/live"</name>
+                            <title>I am on page "/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747078757454' status='passed' stop='1747078842443'>
+                    <name>Then I should see the Switch Player button in the Livestream section ""</name>
+                    <title>Then I should see the Switch Player button in the Livestream section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747078757454' status='passed' stop='1747078842443'>
+                            <name>I see element ".live-stream__player-switcher  > span > button"</name>
+                            <title>I see element ".live-stream__player-switcher  > span > button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

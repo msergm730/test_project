@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1747074507985' stop='1747074523420'>
+    <name>Most Read Section:</name>
+    <title>Most Read Section:</title>
+    <test-cases>
+        <test-case start='1747074507986' status='failed' stop='1747074523406'>
+            <name>Verify bypass block menu for "Most Read" is working</name>
+            <title>Verify bypass block menu for "Most Read" is working</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1747074510626' status='passed' stop='1747074511392'>
+                    <name>Given I am on the homepage ""</name>
+                    <title>Given I am on the homepage ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747074510626' status='passed' stop='1747074511391'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1747074511392' status='failed' stop='1747074523406'>
+                    <name>When I click the "Bypass Block" menu item for "Most Read" ""</name>
+                    <title>When I click the "Bypass Block" menu item for "Most Read" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1747074511392' status='failed' stop='1747074523405'>
+                            <name>I click ".header-menu.site-header", , 1</name>
+                            <title>I click ".header-menu.site-header", , 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid session id</message>
+                <stack-trace>invalid session id: invalid session id
+                    at getErrorFromResponseBody (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/webdriver/build/utils.js:195:12)
+                    at NodeJSRequest._request (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/webdriver/build/request/index.js:193:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)
+                    at async Browser.wrapCommandFn (file:///Users/Sergey_Manukyan/test_project2/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)
+                    at async WebDriver._smartWait (/Users/Sergey_Manukyan/test_project2/node_modules/codeceptjs/lib/helper/WebDriver.js:829:5)
+                    at async WebDriver._locate (/Users/Sergey_Manukyan/test_project2/node_modules/codeceptjs/lib/helper/WebDriver.js:874:5)
+                    at async WebDriver.click (/Users/Sergey_Manukyan/test_project2/node_modules/codeceptjs/lib/helper/WebDriver.js:987:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
