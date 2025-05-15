@@ -4,10 +4,6 @@ const GeneralHelpers = require('../helpers/generalHelpers');
 
 const { I } = inject();
 
-When('I am using a Desktop view', () => {
-  BasePage.resizeToDesktop(); // Use helper to resize
-});
-
 Then('the "Most Read" section should be visible', async () => {
   HomePage.isMostReadSectionVisible()
 });
