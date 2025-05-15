@@ -39,6 +39,37 @@ Ensure you have the following installed:
 1. **To run test**:
     ```bash
     npm run test  
-2. **To Open Report**:
+2. **To Run Single Feature**:
+     ```bash
+    npm run feature "relative path to feature file"
+
+3. **To Open Report**:
     ```bash
     npm run open:report
+
+### Project Structure
+
+```
+project-root/
+├── constants/                  # Static values storage
+│   ├── urls.json               
+├── features/                      
+│   ├── HomePage.feature
+│   ├── liveStreamPlayer.feature
+├── helpers/                    # Shared helpers
+│   └── generalHelpers.js       # Reusable navigation logic
+├── pages/                      # Page Object Model (POM) files
+│   ├── basePage.js
+│   ├── homePage.js
+│   ├── liveStreamPage.js
+├── step_definitions/           # CodeceptJS step definitions    
+│   ├── generalSteps.js      
+│   ├── homePageSteps.js
+│   ├── liveStreamPageSteps.js
+├── output/                     # Allure results (auto-generated)
+├── steps_file.js 
+├── steps.d.js
+├── codecept.conf.js            # CodeceptJS config
+├── package.json
+├── README.md                   # You're here!
+```

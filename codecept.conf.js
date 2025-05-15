@@ -25,8 +25,9 @@ exports.config = {
   },
   gherkin: {
     features: './features/*.feature',
-    steps: ['./step_definitions/homePageSteps.js', './step_definitions/liveStreamPageSteps.js'],
+    steps: ['./step_definitions/homePageSteps.js', './step_definitions/liveStreamPageSteps.js', './step_definitions/generalSteps.js'],
   },
+
   plugins: {
     allure: {
       enabled: true,

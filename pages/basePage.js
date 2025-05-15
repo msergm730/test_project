@@ -1,6 +1,6 @@
 const { I } = inject();
 
-class BrowserUtils {
+class BasePage {
   // Resize to Desktop View
   resizeToDesktop() {
     I.resizeWindow(1440, 900); // Desktop resolution
@@ -12,4 +12,4 @@ class BrowserUtils {
   }
 }
 
-module.exports = new BrowserUtils();
+module.exports = new BasePage();

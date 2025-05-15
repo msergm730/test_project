@@ -1,4 +1,3 @@
-const browserUtils = require('./browserUtils'); // Import browser utilities
 const { I } = inject();
 
 const LivePageSelectors = {
